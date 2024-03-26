@@ -10,7 +10,6 @@ class Solution {
             for(int j=i+1;j<number.length -1;j++){
                 for(int k=j+1;k<number.length;k++){
                     if(number[i]+number[j]+number[k]==0){answer++;}
-                    System.out.println("i+j+k ="+i + j + k);
                 }
             }  
         }
